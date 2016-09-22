@@ -10,6 +10,8 @@
 		A974BA5C1D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A974BA521D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.framework */; };
 		A974BA611D940D170086C290 /* HKHealthStoreFrameworkUnitTestBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A974BA601D940D170086C290 /* HKHealthStoreFrameworkUnitTestBugTests.m */; };
 		A974BA631D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.h in Headers */ = {isa = PBXBuildFile; fileRef = A974BA551D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A974BA6E1D940D640086C290 /* AHealthStoreContainerClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A974BA6C1D940D640086C290 /* AHealthStoreContainerClass.h */; };
+		A974BA6F1D940D640086C290 /* AHealthStoreContainerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A974BA6D1D940D640086C290 /* AHealthStoreContainerClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A974BA5B1D940D170086C290 /* HKHealthStoreFrameworkUnitTestBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKHealthStoreFrameworkUnitTestBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A974BA601D940D170086C290 /* HKHealthStoreFrameworkUnitTestBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKHealthStoreFrameworkUnitTestBugTests.m; sourceTree = "<group>"; };
 		A974BA621D940D170086C290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A974BA6C1D940D640086C290 /* AHealthStoreContainerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHealthStoreContainerClass.h; sourceTree = "<group>"; };
+		A974BA6D1D940D640086C290 /* AHealthStoreContainerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHealthStoreContainerClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				A974BA551D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.h */,
 				A974BA561D940D170086C290 /* Info.plist */,
+				A974BA6C1D940D640086C290 /* AHealthStoreContainerClass.h */,
+				A974BA6D1D940D640086C290 /* AHealthStoreContainerClass.m */,
 			);
 			path = HKHealthStoreFrameworkUnitTestBug;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A974BA631D940D170086C290 /* HKHealthStoreFrameworkUnitTestBug.h in Headers */,
+				A974BA6E1D940D640086C290 /* AHealthStoreContainerClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A974BA6F1D940D640086C290 /* AHealthStoreContainerClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

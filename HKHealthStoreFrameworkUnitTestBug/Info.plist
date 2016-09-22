@@ -20,5 +20,9 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Read heart rate monitor data.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Share workout data to healthkit for use in other apps.</string>
 </dict>
 </plist>
